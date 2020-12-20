@@ -1,6 +1,8 @@
 <nav class="social-icons icons">
-<a class="fa fa-rss rss" href="/index.xml"></a>
-{{ if isset .Site.Params "twitter_username" }}
-<a class="fa fa-twitter twitter" href="https://twitter.com/{{ .Site.Params.twitter_username }}"></a>
-{{ end }}
+    <a class="fa fa-github github" href="https://github.com/kimschles"></a>
+    <a class="fa fa-github linkedin" href="https://www.linkedin.com/in/kimschlesinger/"></a>
+    {{ if isset .Site.Params "twitter_username" }}
+    <a class="fa fa-twitter twitter" href="https://twitter.com/{{ .Site.Params.twitter_username }}"></a>
+    {{ end }}
+    <a class="fa fa-rss rss" href="/index.xml"></a>
 </nav>
